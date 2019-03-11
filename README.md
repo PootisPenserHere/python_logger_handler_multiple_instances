@@ -74,3 +74,5 @@ Instantiating the example three times results in only three new lines in the log
 2019-03-05 11:46:40,150 example_logger INFO     A new instance of the example has been created
 2019-03-05 11:46:40,150 example_logger INFO     A new instance of the example has been created
 ```
+
+As a note, when instantiating a new logger with **logging.getLogger("example_logger")** and adding a handler to it will make the handler only be available to the "example_logger"
